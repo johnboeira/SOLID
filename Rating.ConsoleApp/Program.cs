@@ -1,4 +1,4 @@
-﻿namespace ArdalisRating;
+﻿namespace Rating.ConsoleApp;
 
 public class Program
 {
