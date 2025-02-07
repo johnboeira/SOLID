@@ -4,7 +4,7 @@ namespace Rating.ConsoleApp;
 
 public class Policy
 {
-    public PolicyType Type { get; set; }
+    public string Type { get; set; }
 
     #region Life Insurance
 
@@ -23,6 +23,12 @@ public class Policy
     public decimal BondAmount { get; set; }
 
     #endregion Land
+
+    #region Flood In Addition To Land
+
+    public int ElevationAboveSeaLevelFeet { get; set; }
+
+    #endregion Flood In Addition To Land
 
     #region Auto
 
