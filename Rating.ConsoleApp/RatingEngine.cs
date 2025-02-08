@@ -26,7 +26,7 @@ public class RatingEngine
         var factory = new RaterFactory();
 
         var rater = factory.Create(policy, this);
-        rater?.Rate(policy);
+        rater.Rate(policy);
 
         Logger.Log("Rating completed.");
     }
